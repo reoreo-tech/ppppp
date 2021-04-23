@@ -1,1 +1,1 @@
-FROM nginx:1.12
+FROM nginx
