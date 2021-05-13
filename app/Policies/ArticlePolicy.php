@@ -77,7 +77,6 @@ class ArticlePolicy
      */
     public function restore(User $user, Article $article)
     {
-        //
     }
 
     /**
@@ -89,6 +88,5 @@ class ArticlePolicy
      */
     public function forceDelete(User $user, Article $article)
     {
-        //
     }
 }

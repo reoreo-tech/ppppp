@@ -18,7 +18,6 @@ class BareMail extends Mailable
      */
     public function __construct()
     {
-        //
     }
 
     /**
@@ -28,7 +27,6 @@ class BareMail extends Mailable
      */
     public function build()
     {
-        //return $this->view('view.name');
         return $this;
     }
 }

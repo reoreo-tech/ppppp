@@ -21,7 +21,7 @@ class ArticleController extends Controller
 
         return view('articles.index', ['articles' => $articles]);
     }
-
+//記事投稿画面を表示する
     public function create()
     {
         $allTagNames = Tag::all()->map(function ($tag) {
